@@ -1,6 +1,6 @@
 ![Flutter Agent Kit Banner](docs/assets/banner.png)
 
-# Flutter Agent Kit (FEDA v4)
+# Flutter Agentic Development Rules with Feature-First Event-Driven Clean Architecture
 
 A highly structured, production-grade template and documentation kit implementing **Feature-First Event-Driven Clean Architecture (FEDA)** for Flutter. Designed from the ground up for extreme scaling, high testability, and seamless **AI-Driven Agentic Development** (optimized for Cursor, Claude, and Gemini).
 
