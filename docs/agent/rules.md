@@ -1,4 +1,4 @@
-# Project Rules (RULE-001 to RULE-030)
+# Flutter Agentic Development Rules with Feature-First Event-Driven Clean Architecture
 
 These rules are non-negotiable. Any violation is a failure of architectural integrity.
 
