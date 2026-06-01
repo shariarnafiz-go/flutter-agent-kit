@@ -18,7 +18,7 @@ sealed class DomainEvent with _$DomainEvent {
 }
 ```
 
-## 📜 Global Event Catalog (RULE-029)
+## Global Event Catalog (RULE-029)
 
 Agents MUST register all new events here to ensure "Feature Discovery".
 
@@ -28,9 +28,9 @@ Agents MUST register all new events here to ensure "Feature Discovery".
 | `refreshRequested` | Core | Global trigger to re-fetch data | `featureTag: String` |
 | `operationFailed` | Pipeline | Emitted by OperationPipeline on error | `tag, name, message` |
 
-## 🔍 Event Logger
+## Event Logger
 The `EventLogger` maintains a 200-event ring buffer. This allows you to inspect the "history of truth" in the application during debugging or testing.
 
 ---
-*Reference: [How-to Add an Event](file:///docs/how-to/add-event.md)*
+*Reference: [How-to Add an Event](../how-to/add-event.md)*
 

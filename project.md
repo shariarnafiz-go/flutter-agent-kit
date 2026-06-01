@@ -1,10 +1,10 @@
 # project.md — Fill this before running setup.ps1
 
 ## Identity
-name: "Budget Bite"           # e.g. Budget Bite
-package: "budget_bite"         # e.g. my_btc_canvas
-description: "Budget Bite is a specialized mess management application designed to eliminate the manual complexity of communal living. It serves as a digital ledger that automates the "meal rate" system commonly used in shared housing (messes) in cities like Dhaka."     # One-line description
-repo_url: "https://github.com/shariarunix/budget_bite"
+name: "FEDA App"           # e.g. My App
+package: "feda_app"         # e.g. my_app
+description: "A high-performance Flutter application built on Feature-First Event-Driven Clean Architecture."     # One-line description
+repo_url: "https://github.com/username/feda_app"
 
 ## SDK
 flutter_version: "3.41.7"   # e.g. 3.38.5

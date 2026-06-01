@@ -12,7 +12,7 @@
    - **Presentation**: UI, Notifiers (Riverpod), Widgets.
 4. **Result-First**: Errors are values, not side effects. Every operation returns a `Result<T, Failure>`.
 
-## 📦 Feature Structure
+## Feature Structure
 
 ```
 lib/features/[feature_name]/
@@ -36,5 +36,5 @@ lib/features/[feature_name]/
 The `OperationPipeline` manages the complexity of this flow, providing retries, caching, and mapping out-of-the-box.
 
 ---
-*Next: [Event-Driven Communication](file:///docs/arch/event-driven.md)*
+*Next: [Event-Driven Communication](event-driven.md)*
 

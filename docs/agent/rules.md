@@ -1,12 +1,12 @@
-# Project Rules (RULE-001 to RULE-027)
+# Project Rules (RULE-001 to RULE-030)
 
 These rules are non-negotiable. Any violation is a failure of architectural integrity.
 
-## 🧱 Structural Rules
+## Structural Rules
 
 | ID | Rule |
 |---|---|
-| **RULE-001** | Relative imports only — never `package:Budget Bite/...` for internal files. |
+| **RULE-001** | Relative imports only — never `package:[PACKAGE]/...` for internal files. |
 | **RULE-002** | `.sdp` scaling for ALL layout values (padding, margin, size) — never use raw doubles. |
 | **RULE-003** | Use `@freezed abstract class` for all entities, models, and state classes. |
 | **RULE-004** | Explicit `@JsonKey(name: '...')` on every single model field to handle API changes safely. |
@@ -18,7 +18,7 @@ These rules are non-negotiable. Any violation is a failure of architectural inte
 | **RULE-010** | **All storage goes through `PrefsKit`** — never call `SharedPreferences` or `FlutterSecureStorage` directly. |
 | **RULE-010b** | **Sensitive data uses `secure: true`** in the `Preference` declaration inside `PrefsKit`. |
 
-## 🛠 Development Rules
+## Development Rules
 
 | ID | Rule |
 |---|---|
@@ -31,7 +31,7 @@ These rules are non-negotiable. Any violation is a failure of architectural inte
 | **RULE-017** | Class names MUST follow the `[Feature][Type]` convention (e.g., `NetworkRepositoryImpl`). |
 | **RULE-018** | **Icon Abstraction Mandate** — All icon references MUST use `AppSystemIcons.*` constants. |
 
-## ⚡ FEDA+ (Event & Cache) Rules
+## FEDA+ (Event & Cache) Rules
 
 | ID | Rule |
 |---|---|
@@ -46,5 +46,6 @@ These rules are non-negotiable. Any violation is a failure of architectural inte
 | **RULE-027** | **DataSource methods MUST accept a typed `[Feature]Request` model** — never raw parameters. |
 | **RULE-028** | **Layer Firewall** — `presentation/` is strictly forbidden from importing any file in `data/`. |
 | **RULE-029** | **Event Catalog Mandate** — New events MUST be registered in the Global Event Catalog in `docs/arch/event-driven.md` first. |
+| **RULE-030** | **Emoji Prohibition** — Emojis MUST NOT be used in code, comments, or documentation. |
 
 

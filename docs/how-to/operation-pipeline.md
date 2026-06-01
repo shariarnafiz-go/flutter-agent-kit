@@ -47,5 +47,5 @@ pipeline.withEventBus(ref.read(eventBusProvider));
 ```
 
 ---
-*Next: [Caching with Pipeline](file:///docs/how-to/caching.md)*
+*Next: [Caching with Pipeline](caching.md)*
 

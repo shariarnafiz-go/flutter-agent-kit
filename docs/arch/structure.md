@@ -1,6 +1,6 @@
 # Project Structure
 
-Budget Bite follows a strict directory layout to prevent architectural drift.
+The project follows a strict directory layout to prevent architectural drift.
 
 ## 📁 Root Layout
 ```
@@ -18,15 +18,15 @@ lib/
 └── main.dart           # App entry point & initialization
 ```
 
-## 🏗 Feature Sub-folders
-See [Architecture Overview](file:///docs/arch/overview.md) for a detailed breakdown of layers within a feature.
+## Feature Sub-folders
+See [Architecture Overview](overview.md) for a detailed breakdown of layers within a feature.
 
-## 🧩 The Core Layer
+## The Core Layer
 - **`pipeline/`**: The engine of the app. It converts API calls into `Result` types.
 - **`preference/`**: The ONLY place where persistence is handled.
 - **`theme/`**: Contains `AppColors`, `AppTextStyles`, and `AppSystemIcons` (RULE-018).
 
-## 🧪 Testing Structure
+## Testing Structure
 Tests mirror the `lib/` folder exactly.
 ```
 test/

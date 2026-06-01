@@ -26,5 +26,5 @@ For real-time dashboards:
 6. **Pipeline** listens to **DomainEvents** (e.g., `RefreshRequested`) to trigger a new cycle.
 
 ---
-*Reference: [Caching Strategies](file:///docs/how-to/caching.md)*
+*Reference: [Caching Strategies](../how-to/caching.md)*
 

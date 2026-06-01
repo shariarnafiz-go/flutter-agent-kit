@@ -23,5 +23,5 @@ This document contains "Pro Tips" for building highly performant and accessible 
 - Pre-cache heavy images using `precacheImage`.
 
 ---
-*Reference: [Agent Workflow](file:///docs/agent/overview.md)*
+*Reference: [Agent Workflow](../agent/overview.md)*
 

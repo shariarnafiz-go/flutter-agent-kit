@@ -49,5 +49,5 @@ Future<Result<UserEntity, Failure>> getUser(UserParams params) {
 ```
 
 ---
-*Reference: [Operation Pipeline How-to](file:///docs/how-to/operation-pipeline.md)*
+*Reference: [Operation Pipeline How-to](../how-to/operation-pipeline.md)*
 

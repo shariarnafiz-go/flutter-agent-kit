@@ -22,5 +22,5 @@ When given a task:
 - Proactively update documentation (`registry.md`, `event-driven.md`) as you build.
 
 ---
-*Next: Read [Architecture Overview](file:///docs/arch/overview.md)*
+*Next: Read [Architecture Overview](../arch/overview.md)*
 
